@@ -10,7 +10,7 @@ Good file structure and config, style file, layout with header and footer, nav b
 npx degit RodolpheANDRIEUX/Boilerplate-Sveltekit my-sveltekit-app
 cd my-sveltekit-app
 npm install
-npm run dev
+npm run dev -- --open
 ```
 
 
