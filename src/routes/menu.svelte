@@ -43,7 +43,7 @@
         text-transform: uppercase;
         letter-spacing: .2em;
         text-decoration: none;
-        text-shadow: var(--color-bg-2);
+        text-shadow: 1px 1px 5px var(--color-bg-2);
         padding: .8em 1em;
         transition: .2s ease-in-out;
     }

@@ -11,7 +11,7 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.${APP_NAME}.rule=Host(`${APP_NAME}.manifesto-app.fr`)"
-      - "traefik.http.services.${APP_NAME}.loadbalancer.server.port=${PORT}"
+      - "traefik.http.services.${APP_NAME}.loadbalancer.server.port=3000"
       - "traefik.http.routers.${APP_NAME}.entrypoints=websecure"
       - "traefik.http.routers.${APP_NAME}.tls.certresolver=myresolver"
       - "traefik.http.middlewares.${APP_NAME}-redirect.redirectscheme.scheme=https"
@@ -20,3 +20,7 @@ services:
       - "traefik.http.routers.${APP_NAME}-http.middlewares=${APP_NAME}-redirect"
     environment:
       NODE_ENV: production
+
+networks:
+  shared-network:
+    external: true

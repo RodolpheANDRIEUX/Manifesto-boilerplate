@@ -19,6 +19,6 @@
 
 <style>
     a {
-        text-shadow: var(--color-bg-2);
+        text-shadow: 0 0 10px var(--color-bg-0);
     }
 </style>
