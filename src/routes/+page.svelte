@@ -1,6 +1,6 @@
 <svelte:head>
     <title>Manifesto</title>
-    <meta name="description" content="A very simple boirlerplate for sveltekit" />
+    <meta name="description" content="A boilerplate for Manifesto apps" />
 
     <!-- SEO -->
     <meta name="keywords" content="productivity, Manifesto, manifesto app" />

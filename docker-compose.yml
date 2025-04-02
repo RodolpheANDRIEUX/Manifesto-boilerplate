@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  ${APP_NAME}:
+  app:
     container_name: ${APP_NAME}
     build: .
     image: ${APP_NAME}:latest
