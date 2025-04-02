@@ -16,3 +16,9 @@
 
 <h1>Manifesto</h1>
 <p>Visit <a href="https://pomodoro.manifesto-app.fr/">the pomodoro</a></p>
+
+<style>
+    a {
+        text-shadow: var(--color-bg-2);
+    }
+</style>

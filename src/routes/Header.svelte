@@ -13,7 +13,7 @@
 <header>
 	<div class="logo">
 		<a href="/">
-			<img src="logo.svg" alt="OW" />
+			<img src="logo.svg" alt="M" />
 		</a>
 	</div>
 
@@ -78,7 +78,7 @@
 		position: absolute;
 		bottom: 10px;
 		left: 0;
-		background-color: var(--color-bg-1);
+		background-color: var(--color-bg-0);
 		view-transition-name: indicator;
 	}
 
@@ -86,7 +86,7 @@
 		display: flex;
 		height: 100%;
 		align-items: center;
-		color: var(--color-bg-2);
+		color: var(--color-bg-0);
 		font-weight: 700;
 		font-size: 1rem;
 		text-transform: uppercase;

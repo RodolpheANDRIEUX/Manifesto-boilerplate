@@ -37,12 +37,13 @@
     }
 
     .menu a {
-        color: var(--color-bg-1);
+        color: var(--color-bg-0);
         font-weight: 700;
         font-size: 1.5rem;
         text-transform: uppercase;
         letter-spacing: .2em;
         text-decoration: none;
+        text-shadow: var(--color-bg-2);
         padding: .8em 1em;
         transition: .2s ease-in-out;
     }
@@ -68,7 +69,7 @@
         width: 100vw;
         height: 100vh;
         background-color: var(--color-theme-3);
-        opacity: .5;
+        opacity: .7;
         z-index: -1;
     }
 
